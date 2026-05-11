@@ -27,6 +27,19 @@ If you screen for "behavioral scientist who can audit her own claims" — start 
 - [Persuasion-Max](https://github.com/moranetz/Persuasion-Max) — Open-source 5-layer behavioral measurement engine. Calibrated on 126,288 human interactions; identifies a 21.8 point lift when message framing matches persona type.
 - [lsm-discovery](https://github.com/moranetz/lsm-discovery) — Replication of Pennebaker's Language Style Matching research, validated on persuasive dialogue. Open Python implementation. Includes a "What this means for sales-discovery calls" section that translates the research for AE readers.
 
-Currently: applying to Stripe Funded Startups AE. If you're hiring there, the three repos above are the interview.
+---
+
+**Operator tools (newly public):**
+
+- [linkedin-optimizer](https://github.com/Moranetz/linkedin-optimizer) — Single-file React app that scores a LinkedIn draft on virality dimensions, then rewrites it for one of five named audience profiles (founders / developers / executives / creators / sales) with one of five rewrite levers (more vulnerable / more controversial / add data / make it funnier / more specific). 1,200 lines of HTML/JSX, no build step.
+- [post-bridge-mcp](https://github.com/Moranetz/post-bridge-mcp) — 50-tool MCP server for solo-dev marketing — viral scoring before publishing, persuasion email sequences, competitive intelligence, Reddit authority building. Python + Supabase + Claude. Runs hands-free.
+- [raroque-repo-audit](https://github.com/Moranetz/raroque-repo-audit) — Pre-publish security-audit skill for Claude Code. Aligned to OWASP ASVS 5.0, OWASP Top 10 2025, MASVS 2.0, CWE Top 25, and OWASP LLM Top 10, plus the specific Supabase RLS / Stripe-webhook / AI-tool-budget failure modes Chris Raroque has cataloged. Catches the schema-level vulnerabilities that pass policy-level audits.
+- [clearframe-public](https://github.com/Moranetz/clearframe-public) — Chrome extension + React app that identifies the specific persuasion techniques in any headline, steelmans both sides without ideology labels, and surfaces common ground. Built on the four-layer Behavioral Influence Architecture (BIA) framework, 14 peer-reviewed sources.
+
+These were gatekept private because they were "too powerful." The technique is not the moat — the calibration and the voice are. Publishing is the credibility halo.
+
+---
+
+Currently: applying to Stripe Funded Startups AE. If you're hiring there, the Closer Foundation + AE-track repos above are the interview.
 
 [LinkedIn](https://linkedin.com/in/marionmoranetz) · [Portfolio](https://moranetz.github.io)
