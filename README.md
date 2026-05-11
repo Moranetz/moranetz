@@ -1,10 +1,10 @@
 ### Marion Moranetz
 
-Behavioral scientist who ships. San Francisco. Open to Chicago.
+Indie builder and AE candidate. San Francisco.
 
-**For CROs and founder-buyers:** I build the systems other AEs use intuitively. For every move I make on a deal, I can show you the mechanism behind it — and the empirical evidence either holding it up or quietly failing to. The repos below are the proof.
+**For CROs and founder-buyers:** I build the systems other AEs use intuitively. For every move I make on a deal, I can show you the mechanism behind it — and the evidence either holding it up or quietly failing to. The repos below are the proof.
 
-I build at the intersection of payments, persuasion, and product. Most of what I make is software for one of three buyers: a founder who needs revenue infrastructure, a salesperson who wants discovery superpowers, or a team that needs behavioral data to decide.
+I build at the intersection of payments, persuasion, and product. Most of what I make is software for one of three buyers: a founder who needs revenue infrastructure, a salesperson who wants discovery superpowers, or a team that needs better data to decide.
 
 ---
 
@@ -16,7 +16,7 @@ A five-repo research program building the empirical foundation for "best closer 
 - [sales-instrument](https://github.com/Moranetz/sales-instrument) — Pre-registered 4-arm A/B test on my own cold outreach. Salt + protocol committed to git before the first send so reviewers can verify the design wasn't mid-study altered. Results published whichever direction they land.
 - Three sister repos release through Q3 2026: *delta-mechanics* (independent replication of Tan et al. 2016 *Winning Arguments*), *close-detector* (transformer technique classifier), *closer-sparring* (local-first practice agent).
 
-If you screen for "behavioral scientist who can audit her own claims" — start with Atlas. If you're a Stripe Funded Startups AE hiring manager, the series is the interview.
+If you screen for "operator who can audit her own claims, not just make them" — start with Atlas. If you're hiring an AE for founder-to-founder commerce at a Series A–C company, the series is the application.
 
 ---
 
@@ -55,6 +55,6 @@ These were gatekept private because they were "too powerful." The technique is n
 
 ---
 
-Currently: applying to Stripe Funded Startups AE. If you're hiring there, the Closer Foundation + AE-track repos above are the interview.
+Currently: AE roles at Series A–C founder-led startups, where the buyer is the founder or near-founder. The repos above are the application.
 
 [LinkedIn](https://linkedin.com/in/marionmoranetz) · [Portfolio](https://moranetz.github.io)
