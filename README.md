@@ -6,6 +6,8 @@ Indie builder and AE candidate. San Francisco.
 
 I build at the intersection of payments, persuasion, and product. Most of what I make is software for one of three buyers: a founder who needs revenue infrastructure, a salesperson who wants discovery superpowers, or a team that needs better data to decide.
 
+📂 **[Selected work →](https://moranetz.github.io/selected-work/)** · curated gallery of ~35 projects across iOS, web, research artifacts, and operator tools. Selected from ~138 repos since late 2025.
+
 ---
 
 ### The Closer Foundation series
