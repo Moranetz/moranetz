@@ -2,6 +2,8 @@
 
 Behavioral scientist who ships. San Francisco. Open to Chicago.
 
+**For CROs and founder-buyers:** I build the systems other AEs use intuitively. For every move I make on a deal, I can show you the mechanism behind it — and the empirical evidence either holding it up or quietly failing to. The repos below are the proof.
+
 I build at the intersection of payments, persuasion, and product. Most of what I make is software for one of three buyers: a founder who needs revenue infrastructure, a salesperson who wants discovery superpowers, or a team that needs behavioral data to decide.
 
 ---
@@ -19,9 +21,11 @@ If you screen for "behavioral scientist who can audit her own claims" — start 
 
 **What's worth your 30 seconds:**
 
+- [ae-playbook](https://github.com/Moranetz/ae-playbook) — An open AE playbook with the **behavioral-science mechanism behind every move**. Annotated outbound templates by recipient archetype, a four-phase discovery framework, five-role multi-threading map, top-14 objection-handling matrix with mechanism notes, and an annotated MEDDPICC. The playbook I'd hand a new-hire AE on day one.
+- [gtm-teardowns](https://github.com/Moranetz/gtm-teardowns) — Public GTM teardowns of three target companies (Stripe / Clay / Linear) — ICP decomposition, pricing analysis, messaging audit, observable vulnerabilities, and a 30-60-90 day plan for the new-business AE seat at each. The teardown is the application.
 - [poseprompter-stripe-teardown](https://github.com/moranetz/poseprompter-stripe-teardown) — Production Stripe integration (Payment Intents + Elements + signed webhooks + Firestore credit ledger). The architecture diagram, the four mistakes I made in production, and the patterns I'd share with another founder.
 - [Persuasion-Max](https://github.com/moranetz/Persuasion-Max) — Open-source 5-layer behavioral measurement engine. Calibrated on 126,288 human interactions; identifies a 21.8 point lift when message framing matches persona type.
-- [lsm-discovery](https://github.com/moranetz/lsm-discovery) — Replication of Pennebaker's Language Style Matching research, validated on persuasive dialogue. Open Python implementation.
+- [lsm-discovery](https://github.com/moranetz/lsm-discovery) — Replication of Pennebaker's Language Style Matching research, validated on persuasive dialogue. Open Python implementation. Includes a "What this means for sales-discovery calls" section that translates the research for AE readers.
 
 Currently: applying to Stripe Funded Startups AE. If you're hiring there, the three repos above are the interview.
 
