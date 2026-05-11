@@ -13,7 +13,8 @@ I build at the intersection of payments, persuasion, and product. Most of what I
 A five-repo research program building the empirical foundation for "best closer someday." Pre-registered methodology. Transparent deviation logs. Autonomous-compute friendly.
 
 - [closing-evidence-atlas](https://github.com/Moranetz/closing-evidence-atlas) — Pre-registered systematic review and Bayesian meta-analysis of 39 named sales-closing techniques. 11,785 records screened across 7 public databases. 572 included after Stage-1; 44 records extracted. **15 techniques classified as empirical deserts** — zero peer-reviewed studies despite high practitioner prominence. PRISMA 2020 conformant. **Six per-technique posteriors public, five sensitivity-stable:** gain-framing μ=0.354 [0.280, 0.429] (k=9), loss-framing μ=0.327 [0.249, 0.410] (k=7), regulatory-fit μ=0.484 [0.346, 0.632] (k=3), commitment-consistency μ=0.590 [0.331, 0.782] (k=2), extreme-anchor μ=0.435 (k=2). All five clear d=0.2 with P>0.99.
-- Four sister repos release through Q3 2026: *delta-mechanics* (independent replication of Tan et al. 2016 *Winning Arguments*), *close-detector* (transformer technique classifier), *closer-sparring* (local-first practice agent), *sales-instrument* (pre-registered 4-arm A/B test on my own cold outreach).
+- [sales-instrument](https://github.com/Moranetz/sales-instrument) — Pre-registered 4-arm A/B test on my own cold outreach. Salt + protocol committed to git before the first send so reviewers can verify the design wasn't mid-study altered. Results published whichever direction they land.
+- Three sister repos release through Q3 2026: *delta-mechanics* (independent replication of Tan et al. 2016 *Winning Arguments*), *close-detector* (transformer technique classifier), *closer-sparring* (local-first practice agent).
 
 If you screen for "behavioral scientist who can audit her own claims" — start with Atlas. If you're a Stripe Funded Startups AE hiring manager, the series is the interview.
 
@@ -26,6 +27,20 @@ If you screen for "behavioral scientist who can audit her own claims" — start 
 - [poseprompter-stripe-teardown](https://github.com/moranetz/poseprompter-stripe-teardown) — Production Stripe integration (Payment Intents + Elements + signed webhooks + Firestore credit ledger). The architecture diagram, the four mistakes I made in production, and the patterns I'd share with another founder.
 - [Persuasion-Max](https://github.com/moranetz/Persuasion-Max) — Open-source 5-layer behavioral measurement engine. Calibrated on 126,288 human interactions; identifies a 21.8 point lift when message framing matches persona type.
 - [lsm-discovery](https://github.com/moranetz/lsm-discovery) — Replication of Pennebaker's Language Style Matching research, validated on persuasive dialogue. Open Python implementation. Includes a "What this means for sales-discovery calls" section that translates the research for AE readers.
+
+---
+
+---
+
+### Persuasion-training iOS suite — three apps, one quarter
+
+Three companion games released as native SwiftUI ports of my own React/HTML source. Each teaches a different operator skill — composition, recognition, calibration. App Store submissions pending; full source + scaffolding public.
+
+- [reality-distortion-ios](https://github.com/Moranetz/reality-distortion-ios) — Frame-stacking game against eight named buyer archetypes (skeptical investor, corporate gatekeeper, burned founder, etc.). Player composes a six-fragment response targeting each NPC's documented persuasion weakness. [Support + privacy](https://moranetz.github.io/reality-distortion-docs/).
+- [mindcraft-ios](https://github.com/Moranetz/mindcraft-ios) — Duolingo-style mechanism drilling across seven persuasion techniques. 56 practice questions with literature citations (Cialdini, Kahneman, Langer 1978). [Support + privacy](https://moranetz.github.io/mindcraft-docs/).
+- [viraliq-ios](https://github.com/Moranetz/viraliq-ios) — Hook-writing practice across seven distinct interaction modes (assemble, swipe-instinct, surgery, rank, A/B, roast, fix). 56 exercises that train the thumb-stop response. [Support + privacy](https://moranetz.github.io/viraliq-docs/).
+
+Same scaffold replicated three times. Third ship cost less than the second.
 
 ---
 
