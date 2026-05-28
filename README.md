@@ -1,62 +1,56 @@
 ### Marion Moranetz
+San Francisco
 
-Indie builder and AE candidate. San Francisco.
+I design persuasion at the layer below attention — interfaces and prose where the user builds the feeling and credits it to themselves.
 
-**For CROs and founder-buyers:** I build the systems other AEs use intuitively. For every move I make on a deal, I can show you the mechanism behind it — and the evidence either holding it up or quietly failing to. The repos below are the proof.
+Most of it ships as software: iOS apps and web tools, plus the operator tooling I run my own pipeline on. Some of it is the same skill pointed at a deal.
 
-I build at the intersection of payments, persuasion, and product. Most of what I make is software for one of three buyers: a founder who needs revenue infrastructure, a salesperson who wants discovery superpowers, or a team that needs better data to decide.
+Currently: AE roles at founder-led Series A–C startups.
 
-📂 **[Selected work →](https://moranetz.github.io/selected-work/)** · curated gallery of ~35 projects across iOS, web, research artifacts, and operator tools. Selected from ~138 repos since late 2025.
-
----
-
-### The Closer Foundation series
-
-A five-repo research program building the empirical foundation for "best closer someday." Pre-registered methodology. Transparent deviation logs. Autonomous-compute friendly.
-
-- [closing-evidence-atlas](https://github.com/Moranetz/closing-evidence-atlas) — Pre-registered systematic review and Bayesian meta-analysis of 39 named sales-closing techniques. 11,785 records screened across 7 public databases. 572 included after Stage-1; 44 records extracted. **15 techniques classified as empirical deserts** — zero peer-reviewed studies despite high practitioner prominence. PRISMA 2020 conformant. **Six per-technique posteriors public, five sensitivity-stable:** gain-framing μ=0.354 [0.280, 0.429] (k=9), loss-framing μ=0.327 [0.249, 0.410] (k=7), regulatory-fit μ=0.484 [0.346, 0.632] (k=3), commitment-consistency μ=0.590 [0.331, 0.782] (k=2), extreme-anchor μ=0.435 (k=2). All five clear d=0.2 with P>0.99.
-- [sales-instrument](https://github.com/Moranetz/sales-instrument) — Pre-registered 4-arm A/B test on my own cold outreach. Salt + protocol committed to git before the first send so reviewers can verify the design wasn't mid-study altered. Results published whichever direction they land.
-- Three sister repos release through Q3 2026: *delta-mechanics* (independent replication of Tan et al. 2016 *Winning Arguments*), *close-detector* (transformer technique classifier), *closer-sparring* (local-first practice agent).
-
-If you screen for "operator who can audit her own claims, not just make them" — start with Atlas. If you're hiring an AE for founder-to-founder commerce at a Series A–C company, the series is the application.
+📂 **[Selected work →](https://moranetz.github.io/selected-work/)** · ~35 projects across iOS, web, research, and operator tools, drawn from ~138 repos since late 2025.
 
 ---
 
-**What's worth your 30 seconds:**
+### Closing research
 
-- [ae-playbook](https://github.com/Moranetz/ae-playbook) — An open AE playbook with the **behavioral-science mechanism behind every move**. Annotated outbound templates by recipient archetype, a four-phase discovery framework, five-role multi-threading map, top-14 objection-handling matrix with mechanism notes, and an annotated MEDDPICC. The playbook I'd hand a new-hire AE on day one.
-- [gtm-teardowns](https://github.com/Moranetz/gtm-teardowns) — Public GTM teardowns of three target companies (Stripe / Clay / Linear) — ICP decomposition, pricing analysis, messaging audit, observable vulnerabilities, and a 30-60-90 day plan for the new-business AE seat at each. The teardown is the application.
-- [poseprompter-stripe-teardown](https://github.com/moranetz/poseprompter-stripe-teardown) — Production Stripe integration (Payment Intents + Elements + signed webhooks + Firestore credit ledger). The architecture diagram, the four mistakes I made in production, and the patterns I'd share with another founder.
-- [Persuasion-Max](https://github.com/moranetz/Persuasion-Max) — Open-source 5-layer behavioral measurement engine. Calibrated on 126,288 human interactions; identifies a 21.8 point lift when message framing matches persona type.
-- [lsm-discovery](https://github.com/moranetz/lsm-discovery) — Replication of Pennebaker's Language Style Matching research, validated on persuasive dialogue. Open Python implementation. Includes a "What this means for sales-discovery calls" section that translates the research for AE readers.
+- [closing-evidence-atlas](https://github.com/Moranetz/closing-evidence-atlas) — A systematic review of 39 named sales-closing techniques. 11,785 records screened across 7 public databases, 44 extracted. The finding I keep coming back to: 15 of the most-taught techniques have zero peer-reviewed studies behind them. Methodology and deviation log are committed before the results, so you can check the work against what I said I'd do.
+- [sales-instrument](https://github.com/Moranetz/sales-instrument) — A pre-registered A/B test on my own cold outreach. The protocol went into git before the first send. Results publish whichever way they land.
 
----
+Three sister repos ship through Q3 2026: delta-mechanics, close-detector, closer-sparring.
 
 ---
 
-### Persuasion-training iOS suite — three apps, one quarter
+### Worth your 30 seconds
 
-Three companion games released as native SwiftUI ports of my own React/HTML source. Each teaches a different operator skill — composition, recognition, calibration. App Store submissions pending; full source + scaffolding public.
-
-- [reality-distortion-ios](https://github.com/Moranetz/reality-distortion-ios) — Frame-stacking game against eight named buyer archetypes (skeptical investor, corporate gatekeeper, burned founder, etc.). Player composes a six-fragment response targeting each NPC's documented persuasion weakness. [Support + privacy](https://moranetz.github.io/reality-distortion-docs/).
-- [mindcraft-ios](https://github.com/Moranetz/mindcraft-ios) — Duolingo-style mechanism drilling across seven persuasion techniques. 56 practice questions with literature citations (Cialdini, Kahneman, Langer 1978). [Support + privacy](https://moranetz.github.io/mindcraft-docs/).
-- [viraliq-ios](https://github.com/Moranetz/viraliq-ios) — Hook-writing practice across seven distinct interaction modes (assemble, swipe-instinct, surgery, rank, A/B, roast, fix). 56 exercises that train the thumb-stop response. [Support + privacy](https://moranetz.github.io/viraliq-docs/).
-
-Same scaffold replicated three times. Third ship cost less than the second.
+- [ae-playbook](https://github.com/Moranetz/ae-playbook) — The playbook I'd hand a new AE on day one. Annotated outbound by recipient type, a four-phase discovery framework, a multi-threading map, a top-14 objection matrix, an annotated MEDDPICC, each carrying the mechanism under the move.
+- [gtm-teardowns](https://github.com/Moranetz/gtm-teardowns) — Teardowns of Stripe, Clay, and Linear: ICP, pricing, messaging, the vulnerabilities visible from outside, and a 30-60-90 for the new-business seat at each.
+- [poseprompter-stripe-teardown](https://github.com/moranetz/poseprompter-stripe-teardown) — A production Stripe integration: Payment Intents, Elements, signed webhooks, a Firestore credit ledger. Includes the four mistakes I made shipping it and what I'd tell another founder before they make them.
+- [Persuasion-Max](https://github.com/moranetz/Persuasion-Max) — A behavioral measurement engine calibrated on 126,288 interactions. When message framing matches persona type it finds a 21.8-point lift.
+- [lsm-discovery](https://github.com/moranetz/lsm-discovery) — A Python replication of Pennebaker's Language Style Matching, validated on persuasive dialogue, with a section that translates it for discovery calls.
 
 ---
 
-**Operator tools (newly public):**
+### Persuasion-training iOS suite
 
-- [linkedin-optimizer](https://github.com/Moranetz/linkedin-optimizer) — Single-file React app that scores a LinkedIn draft on virality dimensions, then rewrites it for one of five named audience profiles (founders / developers / executives / creators / sales) with one of five rewrite levers (more vulnerable / more controversial / add data / make it funnier / more specific). 1,200 lines of HTML/JSX, no build step.
-- [post-bridge-mcp](https://github.com/Moranetz/post-bridge-mcp) — 50-tool MCP server for solo-dev marketing — viral scoring before publishing, persuasion email sequences, competitive intelligence, Reddit authority building. Python + Supabase + Claude. Runs hands-free.
-- [raroque-repo-audit](https://github.com/Moranetz/raroque-repo-audit) — Pre-publish security-audit skill for Claude Code. Aligned to OWASP ASVS 5.0, OWASP Top 10 2025, MASVS 2.0, CWE Top 25, and OWASP LLM Top 10, plus the specific Supabase RLS / Stripe-webhook / AI-tool-budget failure modes Chris Raroque has cataloged. Catches the schema-level vulnerabilities that pass policy-level audits.
-- [clearframe-public](https://github.com/Moranetz/clearframe-public) — Chrome extension + React app that identifies the specific persuasion techniques in any headline, steelmans both sides without ideology labels, and surfaces common ground. Built on the four-layer Behavioral Influence Architecture (BIA) framework, 14 peer-reviewed sources.
+Three companion games, native SwiftUI ports of my own React source. Each drills a different operator skill.
 
-These were gatekept private because they were "too powerful." The technique is not the moat — the calibration and the voice are. Publishing is the credibility halo.
+- [reality-distortion-ios](https://github.com/Moranetz/reality-distortion-ios) — Frame-stacking against eight buyer archetypes. You compose a six-fragment response aimed at each one's documented weakness. [Support + privacy](https://moranetz.github.io/reality-distortion-docs/).
+- [mindcraft-ios](https://github.com/Moranetz/mindcraft-ios) — Duolingo-style drilling across seven persuasion techniques. 56 questions, each cited (Cialdini, Kahneman, Langer 1978). [Support + privacy](https://moranetz.github.io/mindcraft-docs/).
+- [viraliq-ios](https://github.com/Moranetz/viraliq-ios) — Hook-writing across seven modes. 56 exercises that train the thumb-stop. [Support + privacy](https://moranetz.github.io/viraliq-docs/).
+
+The third app cost less to ship than the second.
 
 ---
 
-Currently: AE roles at Series A–C founder-led startups, where the buyer is the founder or near-founder. The repos above are the application.
+### Operator tools
+
+- [linkedin-optimizer](https://github.com/Moranetz/linkedin-optimizer) — A single-file React app that scores a LinkedIn draft on virality, then rewrites it for one of five audiences with one of five levers. 1,200 lines, no build step.
+- [post-bridge-mcp](https://github.com/Moranetz/post-bridge-mcp) — A 50-tool MCP server for solo-dev marketing. Python, Supabase, Claude. Runs hands-free.
+- [raroque-repo-audit](https://github.com/Moranetz/raroque-repo-audit) — A pre-publish security-audit skill for Claude Code. Catches the Supabase RLS and Stripe-webhook failures that pass policy-level audits.
+- [clearframe-public](https://github.com/Moranetz/clearframe-public) — A Chrome extension that names the persuasion techniques in any headline and steelmans both sides without ideology labels.
+
+These were private because they felt too powerful to publish. They're public now.
+
+---
 
 [LinkedIn](https://linkedin.com/in/marionmoranetz) · [Portfolio](https://moranetz.github.io)
