@@ -1,5 +1,5 @@
 ### Marion Moranetz
-Bay Area
+Palo Alto
 
 I build instruments for things that are usually argued about instead of measured — how an interface holds attention, when a conversation is working on someone, whether a claim in the persuasion literature survives contact with its own evidence.
 
